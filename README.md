@@ -6,6 +6,7 @@
 # apurvachavan306@gmail.com
 # umakondaru@gmail.com
 # tsananse0298@gmail.com
+<<<<<<< HEAD
 # abinash.kar.november18@gmail.com
 <<<<<<< HEAD
 >>>>>>> 3c12c55aacaa0bf1f9271aa6e7c14fb6a700778f
@@ -14,3 +15,7 @@ Uma adding new line
 =======
 
 >>>>>>> f3156356f62ba4bae2ee311afbc9d8d60c5210be
+=======
+# anuradharandive04@gmail.com
+# hemigipson@gmail.com
+>>>>>>> ed79b1ac871eaf6d13da4c3dbd51e0059457e6a8
