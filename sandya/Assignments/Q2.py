@@ -1,3 +1,5 @@
+# Neha’s Salary Shock
+
 N = int(input("Enter number of employees: "))
 transactions = {}
 
