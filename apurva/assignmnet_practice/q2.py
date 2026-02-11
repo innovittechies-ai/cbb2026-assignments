@@ -1,3 +1,4 @@
+
 n = int(input("Enter number of records: "))
 
 credits = {}
