@@ -1,5 +1,5 @@
 N=int(input())  # enter the number of lane
-vehicles = []   # creating the empty list for storing number of vehicles  
+vehicles = []   # store number of vehicles  
 
 for i in range(N): # iterating though the range of lane
     vehicles.append(int(input(f"enter number of vehicles in lane {i+1} :")))  # updating the empty list

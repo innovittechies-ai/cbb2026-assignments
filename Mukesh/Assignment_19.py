@@ -1,15 +1,14 @@
 n = int ( input()) #enter the number of deliveries 
-delayed_del = [] # create a empty list where delayed orders will be saved
+delayed_del = []   # empty list to store the indices of delayed orders
 
-for i in range (n):  #iterating through the range of delivery orders
-    expected , actual = list ( map ( int, input().split()))  # providing two delivery duration 
-                                                             #  expected delivery time and actual time 
-    if actual - expected > 15 :  # providing condition :  if the differnce is greater than the 15 minutes
-
-        delayed_del .append(i) # if the condition satisfies then update the empty list
-
-if delayed_del:   # if the delayed order list has atleast one value than the condition is true else false
-    for i in delayed_del:
-        print(i)  # print the indices of delayed orders
-else:
+for i in range (n):    # iterating through the number of deliveries
+    expected , actual = list ( map ( int, input().split()))  # taking expected and actual time of orders 
+    if actual - expected > 15 :      # checking if the actual time of order is greater than 15 mins of expected time
+        delayed_del .append(i)    
+         
+if delayed_del:   # if delayed orders are present print the indices
+    for i in delayed_del:   # iterating through the delayed orders and printing the indices
+        print(i)  
+else: 
+    # else print no delay
     print('No Delay')

@@ -1,16 +1,20 @@
-n = int(input())
+n = int(input()) 
 
-arr = [int(input()) for i in range(n)]
-
-free_space = 0
-
+arr = [int(input()) for i in range(n)] 
+# Reading array elements
+ 
+free_space = 0 
 max_count = 0
-
-for num in arr:
-    if num ==0:
-        free_space += 1
-        max_count = max (max_count , free_space)
-    else:
+ 
+# Traversing through array elements
+for num in arr: 
+    if num ==0: 
+        # If element is zero, increase free_space count
+        free_space += 1  
+        # Update max_count with maximum of max_count and free_space
+        max_count = max (max_count , free_space) 
+        # Else reset free_space count
+    else: 
         free_space = 0
 
 print("output :", max_count)             

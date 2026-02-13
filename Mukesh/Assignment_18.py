@@ -1,11 +1,18 @@
 n = int(input())  # enter the total number of student
 
-marks = list( map( int,input().split()))   # enter the marks
+marks = list( map( int,input().split())) 
+# taking marks of students
 
-avg = sum(marks)/n  #Average of the marks
-count = 0  # initiallizing the count as o
+avg = sum(marks)/n 
+# calculating average of marks
 
-for i in marks:  # iterating over the marks
-    if i > avg:  # giving condition :if the mark is greater than average marks 
-        count+=1 # if condition staifies : count = count+1
+count = 0  
+# initialising count to zero
+   
+for i in marks:    
+    # traversing through marks
+    if i > avg: 
+        # checking if marks are greater than average 
+        count+=1 
+        # incrementing count
 print(count)
