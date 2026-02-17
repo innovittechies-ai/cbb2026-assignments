@@ -11,8 +11,7 @@ for i in range(n):
     line = input().strip()
     if not line:
         continue
-    
-    # Robust Parsing: Handles "A 10", "A -10", and "A-10"
+
     if ' ' in line:
         parts = line.split()
         pid = parts[0]
